@@ -1,0 +1,108 @@
+/* BASE AND ROOT STYLES */
+
+:root {
+    --background-color: rgb(69,68,68);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-size: 1em;
+    color:seashell;
+    background-color: var(--background-color);
+    font-family: 'Roboto', sans-serif;
+    text-transform: lowercase;
+    text-align: center;
+}
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+}
+
+.third-width {
+    width: 400px;
+}
+
+/* HEADER AND NAV STYLES */
+
+header {
+    background-color: #e34d4d;
+    height: 100px;
+}
+
+#navbar {
+    margin-top: 20px;
+    height: 100%;
+    float: right;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    padding: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: seashell;
+    font-weight: 700;
+    font-style: italic;
+    padding: 0 30px;
+}
+
+/* WELCOME SECTION STYLES */
+
+#welcome-section {
+    margin-top: 150px;
+}
+
+#welcome-content-wrapper {
+    margin: 100px 0;
+    text-align: center;
+}
+
+#welcome-content-wrapper p {
+    color: #e34d4d;
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+/* WORK SECTION STYLES */
+
+#work-header {
+    margin-bottom: 20px;
+}
+
+hr {
+    margin-bottom: 20px;
+}
+
+#projects {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.project-tile {
+    height: 400px;
+}
+
+/* CONTACT SECTION STYLES */
