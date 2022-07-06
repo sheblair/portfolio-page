@@ -5,9 +5,9 @@
 }
 
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 html {
@@ -15,17 +15,17 @@ html {
 }
 
 body {
-    font-size: 1em;
-    color:seashell;
     background-color: var(--background-color);
+    color:seashell;
     font-family: 'Roboto', sans-serif;
-    text-transform: lowercase;
+    font-size: 1em;
     text-align: center;
+    text-transform: lowercase;
 }
 
 .full-width {
-    width: 1200px;
     margin: 0 auto;
+    width: 1200px;
 }
 
 .half-width {
@@ -41,17 +41,16 @@ body {
 #navbar {
     background-color: #e34d4d;
     height: 100px;
+    left: 40px;
     position: fixed;
     top: 0;
-    left: 40px;
-   
 }
 
 nav ul {
+    float: right;
+    height: 100%;
     list-style-type: none;
     margin-top: 20px;
-    height: 100%;
-    float: right;
 }
 
 nav ul li {
@@ -60,10 +59,10 @@ nav ul li {
 }
 
 nav ul li a {
-    text-decoration: none;
     color: seashell;
-    font-weight: 700;
     font-style: italic;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 /* WELCOME SECTION STYLES */
@@ -79,8 +78,8 @@ nav ul li a {
 
 #welcome-content-wrapper p {
     color: #e34d4d;
-    font-style: italic;
     font-size: 1.2em;
+    font-style: italic;
 }
 
 /* WORK SECTION STYLES */
@@ -107,5 +106,4 @@ hr {
 /* MEDIA QUERIES */
 
 @media  (min-width: 768px) {
-    
-}
+ }
